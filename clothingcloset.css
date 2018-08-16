@@ -1,0 +1,26 @@
+#display{
+  height: 310px;
+  width:310px;
+  margin:5px;
+  display: inline-block;
+}
+  #container{
+    display: inline-block;
+
+  }
+  #column1,#column2,#column3{
+    display: inline;
+    float: left;
+  }
+  img{
+    height:100px;
+    width:100px;
+    border: 5px Pink;
+    border-style: solid;
+  }
+
+  #large{
+    height: 300px;
+    width:300px;
+
+  }
