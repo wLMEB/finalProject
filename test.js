@@ -29,21 +29,21 @@ multipleWidget.onChange(function(group) {
        if(columnCount==0){
 
          var previous = document.getElementById("column1").innerHTML;
-         previous += "<div><img onclick='display(this.src)'src='"+list[i]+"'</div>";
+         previous += "<div><img class='border' onclick='display(this.src)'src='"+list[i]+"'</div>";
          document.getElementById("column1").innerHTML = previous;
          columnCount=columnCount+1;
 
        }
        else if (columnCount==1) {
          var previous = document.getElementById("column2").innerHTML;
-         previous += "<div><img onclick='display(this.src)'src='"+list[i]+"'</div>";
+         previous += "<div><img class='border' onclick='display(this.src)'src='"+list[i]+"'</div>";
          document.getElementById("column2").innerHTML = previous;
          columnCount=columnCount+1;
 
        }
        else{
          var previous = document.getElementById("column3").innerHTML;
-         previous += "<div><img onclick='display(this.src)'src='"+list[i]+"'</div>";
+         previous += "<div><img class='border' onclick='display(this.src)'src='"+list[i]+"'</div>";
          document.getElementById("column3").innerHTML = previous;
          columnCount=0;
        }
