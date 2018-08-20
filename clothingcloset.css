@@ -6,7 +6,7 @@
 }
   #container{
     display: inline-block;
-    float:center;
+    float:right;
 
   }
   #column1,#column2,#column3{
