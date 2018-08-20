@@ -11,16 +11,17 @@
 }
 body {margin:0}
 
-.icon-bar {
+#icon-bar {
     width: 90px;
     top: 31%;
     background-color: #832;
     position: fixed;
+    display: none;
 }
-.icon-bar i {
+#icon-bar i {
   font-size: 20px;
 }
-.icon-bar a {
+#icon-bar a {
     display: block;
     text-align: center;
     padding: 6px;
@@ -29,7 +30,7 @@ body {margin:0}
     font-size: 16px;
 }
 
-.icon-bar a:hover {
+#icon-bar a:hover {
     background-color: #000;
 }
 
