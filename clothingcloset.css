@@ -27,6 +27,7 @@
     border: 5px Pink;
     border-style: solid;
     vertical-align: center;
+    float: right;
   }
 
 #main{
