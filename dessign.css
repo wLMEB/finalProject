@@ -16,6 +16,20 @@
 .sidenav a:hover {
     color: #064579;
 }*/
+h1{
+color: white;
+text-align: center;
+font-family: "Roboto", sans-serif;
+font-style: oblique;
+font-size: 46px;
+display: block;
+font-weight: lighter;
+font-weight: bold;
+text-transform: uppercase;
+background-color: black;
+display: block;
+}
+
 
  .main {
     margin-left: 140px;  Same width as the sidebar + left position in px
@@ -69,19 +83,6 @@ button {
       font-weight: bold;
 }
 
-h1{
-color: white;
-text-align: center;
-font-family: "Roboto", sans-serif;
-font-style: oblique;
-font-size: 46px;
-display: block;
-font-weight: lighter;
-font-weight: bold;
-text-transform: uppercase;
-background-color: black;
-display: block;
-}
 
 body{
   font-family: "Roboto", sans-serif;
