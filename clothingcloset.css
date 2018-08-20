@@ -7,7 +7,7 @@
   #container{
     display: inline-block;
     float:right;
-    margin:300px;
+    margin:30px;
   }
   #column1,#column2,#column3{
     display: inline;
