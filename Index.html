@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <h1> Cleaner Closets </h1>
-  <button onclick="document.getElementById('id01').style.display='block'"; >Login</button>
- 
+   <button onclick="document.getElementById('id01').style.display='block'"; >Login</button>
+  <h1> <font color= "white">CleanerClosets</font> </h1>
+
   <body bgcolor = "#e3936e">
    <link rel="stylesheet" href="dessign.css">
    <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,38 +58,7 @@ s
     <a href="notification.html"><i class="fa fa-envelope"></i><br>Notification</a>
     </div>
 
-  <!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
-  <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Donate</b></span>
-      <span class="w3-hide-small w3-text-light-grey">Now!</span></h1>
-  </div>
-</header>
-<!-- map -->
-    <center><div id="map"></div></center>
-    <div id="map"></div>
-</body>
 
-<script>
-    var map = L.map('map',{scrollWheelZoom:false}).setView([40.4329, 360-74], 9);
-    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-    }).addTo(map);
-    var firefoxIcon = L.icon({
-        iconUrl: 'https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678111-map-marker-512.png',
-        iconSize: [50, 50], // size of the icon
-        });
-    //]var marker = L.marker([40.0583, 360-74.4057], {icon: firefoxIcon}).bindPopup('sqnks').addTo(map);
-    var locations=[["GreenDrop Donation", 40.3213,360-74.2150],["The Salvation Army  Store & Donation Center", 40.4756,360-74.0035],
-    ["The Salvation Army Family Store & Donation Center", 40.4530,360-74.0237],["Planet Aid - New Jersey and New York", 40.5203,360-74.1700],
-    ["GreenDrop Donation",40.5380,360-74.3636],["The Salvation Army Family Store & Donation Center NORTH BERGEN",40.7993,360-74.0089],
-    ["The Salvation Army Family Store & Donation Center KENNEDY",40.4530,360-74.0237],["Planet Aid - New Jersey and New York",40.8679,360-74.2840]["GreenDrop - Cherry Hill, NJ",39.9529,360-75.0259]]
-    for (var i=0;i<locations.length;i++){
-    var marker =  L.marker([locations[i][1],locations[i][2]], {icon: firefoxIcon}).bindPopup(locations[i][0]).addTo(map);
-   }
-</script>
-<script src="leaflet.js"> </script>
-</body>
 <body >
   <div class="icon-bar">
   <a class="active" href="#"><img type="image/svg+xml"
@@ -139,8 +108,8 @@ s
 </div>
 
  
-  <center><h2> Our Mission Statement:</h2></center>
-    <p>     Do you remember the awesome closet system owned by the main character Cher Horowitz,
+  <h2>Our Mission Statement:</h2>
+    <p>  Do you remember the awesome closet system owned by the main character Cher Horowitz,
       played by Alicia Silverstone, in the 1990s cult classic Clueless? Our team
       has decided to carry out that legendary closet idea to help solve a recurring
       problem in our society.  In this project we concocted a virtual closet organizer
@@ -150,7 +119,7 @@ s
       and sweatshops cease to exist.  Through our voices and actions, together with others,
       we can help encourage companies here and abroad to ensure that all workers are
       paid fairly and treated with respect. By taking one of these minuscule steps,
-      we can make a real difference. So here’s to Cleaner Closets!</p>
+      we can make a real difference. So here’s to **TTITLE OF PROJECT**!</p>
  
 
 <script>
