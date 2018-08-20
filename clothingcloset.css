@@ -23,6 +23,9 @@
   #large{
     height: 300px;
     width:300px;
+    border: 5px Pink;
+    border-style: solid;
+    vertical-align: center;
   }
 
 #main{
