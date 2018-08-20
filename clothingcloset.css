@@ -2,11 +2,11 @@
   height: 310px;
   width:310px;
   display: inline-block;
-  float: right;
+  float: left;
 }
   #container{
     display: inline-block;
-    float:right;
+    float:left;
     margin:100px;
   }
   #column1,#column2,#column3{
@@ -26,6 +26,6 @@
     border: 5px Pink;
     border-style: solid;
     vertical-align: center;
-    float: right;
+    float: left;
 
   }
