@@ -1,7 +1,6 @@
 #display{
   height: 310px;
   width:310px;
-  margin:5px;
   display: inline-block;
   float: right;
 }
@@ -29,7 +28,3 @@
     vertical-align: center;
     float: right;
   }
-
-#main{
-  float:center;
-}
