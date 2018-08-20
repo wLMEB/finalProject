@@ -1,4 +1,4 @@
-window.alert("")
+
 function myFunction(x) {
     x.classList.toggle("change");
 }
