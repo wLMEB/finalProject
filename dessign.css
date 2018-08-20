@@ -30,6 +30,26 @@ background-color: black;
 display: block;
 }
 
+h2{
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
+  font-size: 46px;
+  display: block;
+  font-weight: lighter;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  display: block;
+}
+p{
+  color: Black;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-weight: bold;
+  background-color: white;
+}
 
  .main {
     margin-left: 140px;  Same width as the sidebar + left position in px
