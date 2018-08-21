@@ -43,6 +43,18 @@ h2{
   background-color: black;
   display: block;
 }
+h3{
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-style: oblique;
+  font-size: 46px;
+  display: block;
+  font-weight: lighter;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: black;
+  display: block;
 p{
   color: Black;
   font-size:16px;
